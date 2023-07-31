@@ -1,0 +1,10 @@
+/**
+*
+* align.css 
+* @author - Mazeen
+* @date - 31/7/2023 
+**/
+.v-center {
+    display: inline-flex;
+    align-items: center;
+}

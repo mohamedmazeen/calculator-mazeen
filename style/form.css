@@ -1,0 +1,27 @@
+/**
+*
+* form.css 
+* @author - Mazeen
+* @date - 31/7/2023 
+**/
+.btn {
+    font-weight: bold;
+    font-size: 22px;
+    padding: 20px 0px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: none;
+    cursor: pointer;
+}
+.primary-btn {
+    background-color: #fefcff;  
+}
+.secondary-btn {
+    background-color: #cbe9e9;
+}
+.tertiary-btn {
+    background-color: #ff9aa8;
+}

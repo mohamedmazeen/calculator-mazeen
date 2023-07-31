@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style/index.css">
+        <script src="script/script.js"></script>
+        <title>Calculator</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>SIMPLE CALCULATOR</h1>
+            <div class="calculator">
+                <div class="row border">
+                    <div class="col-1 m-10">
+                        <div class="row display">
+                            <div class=" col-1 v-center result" id="result"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-item"><button class="btn primary-btn" type="button" value="0" onclick="calculatorKeys(this)">0</button></div>
+                    <div class="grid-item"><button class="btn primary-btn" type="button" value="1" onclick="calculatorKeys(this)">1</button></div>
+                    <div class="grid-item"><button class="btn primary-btn" type="button" value="2" onclick="calculatorKeys(this)">2</button></div>
+                    <div class="grid-item"><button class="btn secondary-btn" type="button" value="+" onclick="calculatorKeys(this)">&#43;</button></div>
+                    <div class="grid-item"><button class="btn primary-btn" type="button" value="3" onclick="calculatorKeys(this)">3</button></div>
+                    <div class="grid-item"><button class="btn primary-btn" type="button" value="4" onclick="calculatorKeys(this)">4</button></div>
+                    <div class="grid-item"><button class="btn primary-btn" type="button" value="5" onclick="calculatorKeys(this)">5</button></div>
+                    <div class="grid-item"><button class="btn secondary-btn" type="button" value="-" onclick="calculatorKeys(this)">&#45;</button></div>
+                    <div class="grid-item"><button class="btn primary-btn" type="button" value="6" onclick="calculatorKeys(this)">6</button></div>
+                    <div class="grid-item"><button class="btn primary-btn" type="button" value="7" onclick="calculatorKeys(this)">7</button></div>
+                    <div class="grid-item"><button class="btn primary-btn" type="button" value="8" onclick="calculatorKeys(this)">8</button></div>
+                    <div class="grid-item"><button class="btn secondary-btn" type="button" value="*" onclick="calculatorKeys(this)">&#42;</button></div>
+                    <div class="grid-item"><button class="btn primary-btn" type="button" value="9" onclick="calculatorKeys(this)">9</button></div>
+                    <div class="grid-item"><button class="btn tertiary-btn" type="button" onclick="calculatorClear()">C</button></div>
+                    <div class="grid-item"><button class="btn secondary-btn" type="button" onclick="calculatorEvaluation()">&#61;</button></div>
+                    <div class="grid-item"><button class="btn secondary-btn" type="button" value="/" onclick="calculatorKeys(this)">&#47;</button></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
